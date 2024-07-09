@@ -29,41 +29,41 @@ const Monday =[
 const Tuesday =[
     {   
         time: '09-10 AM',
-        roomNumber: '27-304Y',
-        subject: 'MTH166',
-        type: 'Tutorial'
-    },
-    {   
-        time: '11-12 AM',
-        roomNumber: '28-107',
-        subject: 'CS849',
+        roomNumber: 'EOSC420',
+        subject: 'COGS6969',
         type: 'Lecture'
     },
     {   
-        time: '12-01 PM',
-        roomNumber: '28-107',
-        subject: 'CS849',
+        time: '09-10 AM',
+        roomNumber: 'EOSC420',
+        subject: 'COGS6969',
         type: 'Lecture'
     },
     {   
-        time: '02-03 PM',
-        roomNumber: '38-718',
-        subject: 'NS200',
+        time: '09-10 AM',
+        roomNumber: 'EOSC420',
+        subject: 'COGS6969',
         type: 'Lecture'
     }
 ]
 
 const Wednesday =[
     {   
-        time: '10-11 AM',
-        roomNumber: '33-309',
-        subject: 'DBMS130',
+        time: '09-10 AM',
+        roomNumber: 'EOSC420',
+        subject: 'COGS6969',
         type: 'Lecture'
     },
     {   
-        time: '11-12 AM',
-        roomNumber: '38-719',
-        subject: 'CS200',
+        time: '09-10 AM',
+        roomNumber: 'EOSC420',
+        subject: 'COGS6969',
+        type: 'Lecture'
+    },
+    {   
+        time: '09-10 AM',
+        roomNumber: 'EOSC420',
+        subject: 'COGS6969',
         type: 'Lecture'
     }
 ]
@@ -91,23 +91,23 @@ const Thursday =[
 
 const Friday =[
     {   
-        time: '10-11 AM',
-        roomNumber: '33-309',
-        subject: 'MEC103',
+        time: '09-10 AM',
+        roomNumber: 'EOSC420',
+        subject: 'COGS6969',
         type: 'Lecture'
     },
     {   
-        time: '11-12 AM',
-        roomNumber: '33-309',
-        subject: 'MEC103',
+        time: '09-10 AM',
+        roomNumber: 'EOSC420',
+        subject: 'COGS6969',
         type: 'Lecture'
     },
     {   
-        time: '02-03 PM',
-        roomNumber: '33-601',
-        subject: 'CS849',
-        type: 'Tutorial'
-    },
+        time: '09-10 AM',
+        roomNumber: 'EOSC420',
+        subject: 'COGS6969',
+        type: 'Lecture'
+    }
 
 ]
 

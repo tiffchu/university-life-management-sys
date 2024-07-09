@@ -1,5 +1,7 @@
 # University Life Management Dashboard
 
+[Life Management Dashboard Site](https://tiffchu.github.io/university-life-management-sys/)
+
 This dashboard provides an intuitive interface for managing various aspects of university life including attendance tracking, timetable management, to do checklist, and account settings.
 - has cool hover features
   

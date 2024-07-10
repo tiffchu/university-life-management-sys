@@ -8,11 +8,14 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
     <link rel="shortcut icon" href="./images/logo.png">
     <link rel="stylesheet" href="style.css">
-
     <style>
-        body{overflow: hidden;}
-        header{position: relative;}
-        .exam{
+        body {
+            overflow: hidden;
+        }
+        header {
+            position: relative;
+        }
+        .exam {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -27,7 +30,7 @@
     <header>
         <div class="logo">
             <img src="./images/logo.png" alt="">
-            <h2>U<span class="danger">M</span>S</h2>
+            <h2>TODO</h2>
         </div>
         <div class="navbar">
             <a href="index.html">
@@ -37,7 +40,7 @@
             <a href="timetable.html" onclick="timeTableAll()">
                 <span class="material-icons-sharp">today</span>
                 <h3>Time Table</h3>
-            </a> 
+            </a>
             <a href="exam.html" class="active">
                 <span class="material-icons-sharp">grid_view</span>
                 <h3>Examination</h3>
@@ -153,11 +156,32 @@
                     </tr>
                 </tbody>
             </table>
+            <!-- Modal for Adding New Activity -->
+            <div id="activityModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Add New Activity</h2>
+                    <form id="activityForm">
+                        <div class="form-group">
+                            <label for="activity-name">Activity:</label>
+                            <input type="text" id="activity-name" name="activity-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="activity-cost">Cost:</label>
+                            <input type="text" id="activity-cost" name="activity-cost" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="activity-location">Location:</label>
+                            <input type="text" id="activity-location" name="activity-location" required>
+                        </div>
+                        <button type="submit">Add Activity</button>
+                    </form>
+                </div>
+            </div>
+            <!-- Add Activity Button -->
+            <button id="addActivityBtn" class="add-activity-btn">Add Activity</button>
         </div>
     </main>
-    </main>
-
+    <script src="app.js"></script>
 </body>
-
-<script src="app.js"></script>
 </html>

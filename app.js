@@ -56,7 +56,7 @@ function timeTableAll(){
     document.querySelector('.timetable div h2').innerHTML = "Today's Timetable";
 }
 nextDay.onclick = function() {
-    day<=5 ? day++ : day=0;  // If else one liner
+    day<=5 ? day++ : day=0;  // 
     setData(day);
 }
 prevDay.onclick = function() {
@@ -64,5 +64,50 @@ prevDay.onclick = function() {
     setData(day);
 }
 
-setData(day); //To set the data in the table on loading window.
-document.querySelector('.timetable div h2').innerHTML = "Today's Timetable"; //To prevent overwriting the heading on loading;
+setData(day); 
+document.querySelector('.timetable div h2').innerHTML = "Today's Timetable"; // prevent overwriting the heading on loading;
+
+
+var modal = document.getElementById("activityModal");
+
+var btn = document.getElementById("addActivityBtn");
+
+var span = document.getElementsByClassName("close")[0];
+
+ 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+// form submission
+document.getElementById("activityForm").onsubmit = function(event) {
+    event.preventDefault();
+
+    var name = document.getElementById("activity-name").value;
+    var cost = document.getElementById("activity-cost").value;
+    var location = document.getElementById("activity-location").value;
+
+    var table = document.querySelector(".exam table tbody");
+    var newRow = table.insertRow();
+    newRow.innerHTML = `
+        <td>${name}</td>
+        <td>${cost}</td>
+        <td>${location}</td>
+        <td><input type="checkbox" name="activity" id="activity"></td>
+    `;
+
+    modal.style.display = "none";
+
+    document.getElementById("activityForm").reset();
+};

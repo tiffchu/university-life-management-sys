@@ -7,12 +7,12 @@ This dashboard provides an intuitive interface for managing various aspects of u
   
 ## Main Features
 
-- **Easy Navigation:** Easily navigate through different sections like Home, Timetable, Examination, Change Password, and Logout.
-- **Profile:** View personal information including course details, contact information, email, and address.
-- **Attendance Monitoring :(** Monitor attendance for different subjects with detailed progress indicators.
-- **Timetable:** View and manage daily schedules with dynamic navigation.
+- **Easy Navigation:** navigate through different sections like Home, Timetable, Examination, Change Password, and Logout.
+- **Profile:** View personal information including course details, contact information, email, and address
+- **Attendance Monitoring :(** Monitor attendance for different subjects with crazy progress indicators
+- **Timetable:** View and manage daily schedules with insane navigation.
 - **Announcements:** Stay updated with important university announcements.
-- **Cool Checklist:** Check off activiates to be done, add future plans. 
+- **Cool Checklist:** Check off activities to be done, add future plans. 
 - **Emails to Answer:** Manage communication with teachers and staff effectively.
 
 ![Dashboard Image](images/dashboard.png)
